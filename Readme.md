@@ -41,4 +41,14 @@ A Streamlit web application to predict house sale prices using a trained machine
 ---
 
 ## 🗂️ Project Structure
-
+```
+📁 House_Prediction_App/
+├── app.py # Streamlit frontend
+├── train_model.py # Script to train and save model
+├── train.csv # Original training data
+├── train_preprocessed.csv # Cleaned dataset used for training
+├── house_model.pkl # Trained model
+├── selected_features.pkl # Saved selected features
+├── requirements.txt # Dependencies
+└── README.md # This file
+```
